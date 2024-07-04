@@ -1,0 +1,977 @@
+{
+    "users": [
+        {
+            "dob": "1996-10-08",
+            "email": "liam@example.com",
+            "first_name": "Liam",
+            "last_name": "Taylor",
+            "gender": "others",
+            "interested": [
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "marketing",
+                    "_metadata": {
+                        "uid": "cs8425e3a736655c57"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "liamtaylor",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1450,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt78c19eb973b1b9e99",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "liam@example.com",
+                    "total_completion": {
+                        "read": 52,
+                        "video": 185,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "liam",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "liam",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1997-08-21",
+            "email": "ava@example.com",
+            "first_name": "Ava",
+            "last_name": "Wilson",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "design",
+                    "_metadata": {
+                        "uid": "cs198d9d5cc52e3167"
+                    }
+                },
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "avawilson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1200,
+                    "level": "beginner",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt7c6e8ef4c59a1f92",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "ava@example.com",
+                    "total_completion": {
+                        "read": 30,
+                        "video": 150,
+                        "assignment": 0,
+                        "quiz": 1
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "ava",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "ava",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+        {
+            "dob": "1998-05-12",
+            "email": "alex@example.com",
+            "first_name": "Alex",
+            "last_name": "Jones",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "product",
+                    "_metadata": {
+                        "uid": "csf5a4c712dc3a6180"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "alexjones",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1800,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt49b4e7de27a366d4",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "alex@example.com",
+                    "total_completion": {
+                        "read": 65,
+                        "video": 210,
+                        "assignment": 0,
+                        "quiz": 3
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "alex",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "alex",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1990-03-25",
+            "email": "emma@example.com",
+            "first_name": "Emma",
+            "last_name": "Robinson",
+            "gender": "others",
+            "interested": [
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                },
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "emmarobinson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1600,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt8e4f4ef1f7e6c5e7",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "emma@example.com",
+                    "total_completion": {
+                        "read": 45,
+                        "video": 175,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "emma",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "emma",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1995-12-14",
+            "email": "noah@example.com",
+            "first_name": "Noah",
+            "last_name": "Martinez",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "product",
+                    "_metadata": {
+                        "uid": "csf5a4c712dc3a6180"
+                    }
+                },
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "noahmartinez",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1550,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt3d4ef5c4abf8f92e",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "noah@example.com",
+                    "total_completion": {
+                        "read": 50,
+                        "video": 190,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "noah",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "noah",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1993-09-30",
+            "email": "sophia@example.com",
+            "first_name": "Sophia",
+            "last_name": "Brown",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                },
+                {
+                    "interest": "marketing",
+                    "_metadata": {
+                        "uid": "cs8425e3a736655c57"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "sophiabrown",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1400,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt19c04d165d9edc5c",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "sophia@example.com",
+                    "total_completion": {
+                        "read": 48,
+                        "video": 180,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "sophia",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "sophia",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+        {
+            "dob": "1988-06-17",
+            "email": "mason@example.com",
+            "first_name": "Mason",
+            "last_name": "Miller",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "design",
+                    "_metadata": {
+                        "uid": "cs198d9d5cc52e3167"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "masonmiller",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1700,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt5acdb2d00b5c52e0",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "mason@example.com",
+                    "total_completion": {
+                        "read": 60,
+                        "video": 200,
+                        "assignment": 0,
+                        "quiz": 3
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "mason",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "mason",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1992-04-03",
+            "email": "isabella@example.com",
+            "first_name": "Isabella",
+            "last_name": "Garcia",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "isabellagarcia",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1500,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt6e76df3b1305b3b4",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "isabella@example.com",
+                    "total_completion": {
+                        "read": 50,
+                        "video": 190,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "isabella",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "isabella",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1991-11-19",
+            "email": "william@example.com",
+            "first_name": "William",
+            "last_name": "Anderson",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "product",
+                    "_metadata": {
+                        "uid": "csf5a4c712dc3a6180"
+                    }
+                },
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "williamanderson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1750,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt4e02c1d2ac29c2ed",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "william@example.com",
+                    "total_completion": {
+                        "read": 60,
+                        "video": 210,
+                        "assignment": 0,
+                        "quiz": 3
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "william",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "william",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1990-07-25",
+            "email": "olivia@example.com",
+            "first_name": "Olivia",
+            "last_name": "Thompson",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "design",
+                    "_metadata": {
+                        "uid": "cs198d9d5cc52e3167"
+                    }
+                },
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "oliviathompson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1600,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt7ecf30f6bce688f0",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "olivia@example.com",
+                    "total_completion": {
+                        "read": 55,
+                        "video": 200,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "olivia",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "olivia",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+        {
+            "dob": "1985-03-12",
+            "email": "lucas@example.com",
+            "first_name": "Lucas",
+            "last_name": "Robinson",
+            "gender": "others",
+            "interested": [
+                { 
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "marketing",
+                    "_metadata": {
+                        "uid": "cs8425e3a736655c57"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "lucasrobinson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1550,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt89a5e6a10e3a54e3",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "lucas@example.com",
+                    "total_completion": {
+                        "read": 55,
+                        "video": 190,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "lucas",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "lucas",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1994-12-05",
+            "email": "amelia@example.com",
+            "first_name": "Amelia",
+            "last_name": "Harris",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "soft skills",
+                    "_metadata": {
+                        "uid": "cs3a5c1d398b0e1718"
+                    }
+                },
+                {
+                    "interest": "design",
+                    "_metadata": {
+                        "uid": "cs198d9d5cc52e3167"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "ameliaharris",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1450,
+                    "level": "intermediate",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt1c622c43ed2b4d8c",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "amelia@example.com",
+                    "total_completion": {
+                        "read": 50,
+                        "video": 180,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "amelia",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "amelia",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1987-08-22",
+            "email": "benjamin@example.com",
+            "first_name": "Benjamin",
+            "last_name": "Lewis",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "product",
+                    "_metadata": {
+                        "uid": "csf5a4c712dc3a6180"
+                    }
+                },
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "benjaminlewis",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1800,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt0b93ab8d8810e67b",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "benjamin@example.com",
+                    "total_completion": {
+                        "read": 65,
+                        "video": 220,
+                        "assignment": 0,
+                        "quiz": 3
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "benjamin",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "benjamin",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1989-02-14",
+            "email": "evelyn@example.com",
+            "first_name": "Evelyn",
+            "last_name": "Walker",
+            "gender": "female",
+            "interested": [
+                {
+                    "interest": "coding",
+                    "_metadata": {
+                        "uid": "cs10d7b126f08b8df3"
+                    }
+                },
+                {
+                    "interest": "marketing",
+                    "_metadata": {
+                        "uid": "cs8425e3a736655c57"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "evelynwalker",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1650,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt35c3d2d9783f5115",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "evelyn@example.com",
+                    "total_completion": {
+                        "read": 58,
+                        "video": 195,
+                        "assignment": 0,
+                        "quiz": 2
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "evelyn",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "evelyn",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        },
+
+
+        {
+            "dob": "1983-11-18",
+            "email": "daniel@example.com",
+            "first_name": "Daniel",
+            "last_name": "Anderson",
+            "gender": "male",
+            "interested": [
+                {
+                    "interest": "design",
+                    "_metadata": {
+                        "uid": "cs198d9d5cc52e3167"
+                    }
+                },
+                {
+                    "interest": "product",
+                    "_metadata": {
+                        "uid": "csf5a4c712dc3a6180"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "danielanderson",
+            "updated_at": "2024-07-03T10:09:22.749Z",
+            "updated_by": "blt2ed82782a46668ff",
+            "user_edquest_profile": [
+                {
+                    "created_at": "2024-06-27T06:46:44.401Z",
+                    "created_by": "blt2ed82782a46668ff",
+                    "edcoins": 1750,
+                    "level": "advanced",
+                    "roadmap_progresses": [
+                        {
+                            "uid": "blt2f90b43ec2e2e091",
+                            "_content_type_uid": "ed_roadmap_progress"
+                        }
+                    ],
+                    "tags": [],
+                    "title": "daniel@example.com",
+                    "total_completion": {
+                        "read": 60,
+                        "video": 210,
+                        "assignment": 0,
+                        "quiz": 3
+                    },
+                    "updated_at": "2024-07-03T10:48:05.142Z",
+                    "updated_by": "blt2ed82782a46668ff",
+                    "username_dev": "daniel",
+                    "publish_details": {
+                        "environment": "bltd62eff333637b487",
+                        "locale": "en-in",
+                        "time": "2024-07-03T10:48:05.276Z",
+                        "user": "blt2ed82782a46668ff"
+                    }
+                }
+            ],
+            "username": "daniel",
+            "publish_details": {
+                "environment": "bltd62eff333637b487",
+                "locale": "en-in",
+                "time": "2024-07-03T10:09:22.868Z",
+                "user": "blt2ed82782a46668ff"
+            }
+        }
+        
+    ]
+}
+
+    
