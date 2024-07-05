@@ -92,7 +92,7 @@ const IndexPage: React.FC = () => {
 
   return (
   <div className='border border-red-500 h-[500px] w-[900px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-2 ml-[280px] '>
-    <div className='h-[450px] w-[500px]  ml-[400px] mt-[25px] '>
+<div className='h-[500px] w-[750px] ml-[100px] mt-1 border border-yellow-500 flex items-center justify-center '>
       
       {/* Check if genderChartData has been populated */}
       {genderChartData.length > 0 ? (

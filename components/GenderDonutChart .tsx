@@ -1,6 +1,5 @@
 "use client"; // This marks the file as a client component
 
-
 import React, { useEffect, useRef } from 'react';
 import { Chart, registerables } from 'chart.js';
 import { DoughnutController } from 'chart.js';
@@ -62,35 +61,47 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
 
   return (
     <div className="flex w-full">
-      <div className="flex-1 flex flex-col items-start mt-4">
-        {data.map((item, index) => (
-          <div key={index} className="flex items-center mb-2">
-            <span
-              className="inline-block w-3 h-3 mr-2"
-              style={{
-                backgroundColor:
-                  item.label === 'male'
-                    ? '#00b4d8'
-                    : item.label === 'female'
-                    ? '#ff928b'
-                    : item.label === 'others'
-                    ? '#ffd639'
-                    : '#ccc', // Fallback color
-                borderRadius: '50%',
-              }}
-            ></span>
-            <span className="text-sm font-semibold text-gray-700">{item.label}</span>
-            <span className="ml-2 text-xs text-gray-500">
-              {((item.value / data.reduce((acc, curr) => acc + curr.value, 0)) * 100).toFixed(2)}%
-            </span>
-          </div>
-        ))}
+      <div className="flex-1 flex flex-col items-start mt-4 mr-8"> {/* Added margin-right */}
+        <table className="table-auto">
+          <thead>
+            <tr>
+              <th className="px-4 py-2">Gender</th>
+              <th className="px-4 py-2">Percentage</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+              <tr key={index}>
+                <td className="flex items-center px-4 py-2">
+                  <span
+                    className="inline-block w-7 h-7 mr-3 mt-3"
+                    style={{
+                      backgroundColor:
+                        item.label === 'male'
+                          ? '#00b4d8'
+                          : item.label === 'female'
+                          ? '#ff928b'
+                          : item.label === 'others'
+                          ? '#ffd639'
+                          : '#ccc', // Fallback color
+                      borderRadius: '50%',
+                    }}
+                  ></span>
+                  <span className="text-xl font-semibold text-gray-700">{item.label}</span>
+                </td>
+                <td className="px-4 py-2 text-xl text-gray-500 font-bold">
+                  {((item.value / data.reduce((acc, curr) => acc + curr.value, 0)) * 100).toFixed(2)}%
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
       <div className="flex-1">
-        <canvas ref={chartRef} style={{ height: '400px', width: '400px' }} />
+        <canvas ref={chartRef} style={{ height: '400px', width: '400px', marginLeft: '5rem' }} /> {/* Added margin-left */}
       </div>
     </div>
-  );
+  )
 };
 
 export default GenderDonutChart;
