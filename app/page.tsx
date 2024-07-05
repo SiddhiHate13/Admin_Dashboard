@@ -12,8 +12,9 @@ const Page = () => {
       <main className="flex">
         <Sidebar />
         <div className="flex-1 flex flex-col items-center">
-          <div className="w-[1200px] p-4 border border-red-800 bg-white mt-10">
-            <InterestsBarGraph />
+        <div className="w-[1600px] h-[500px] p-4 rounded-lg shadow-gray-600 shadow-sm border border-red-800 bg-white mt-20 ml-[260px]">
+        <InterestsBarGraph />
+        </div>
             <div className="flex w-full">
               <div className="w-1/2 p-4">
                 <IndexPage />
@@ -23,7 +24,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </div>
+        
       </main>
     </div>
   );

@@ -5,7 +5,7 @@
             "email": "liam@example.com",
             "first_name": "Liam",
             "last_name": "Taylor",
-            "gender": "others",
+            "gender": "male",
             "interested": [
                 {
                     "interest": "coding",
@@ -199,7 +199,7 @@
             "email": "emma@example.com",
             "first_name": "Emma",
             "last_name": "Robinson",
-            "gender": "others",
+            "gender": "female",
             "interested": [
                 {
                     "interest": "soft skills",
@@ -652,9 +652,9 @@
             "email": "lucas@example.com",
             "first_name": "Lucas",
             "last_name": "Robinson",
-            "gender": "others",
+            "gender": "male",
             "interested": [
-                { 
+                {
                     "interest": "coding",
                     "_metadata": {
                         "uid": "cs10d7b126f08b8df3"

@@ -11,19 +11,20 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 const InterestsBarGraph: React.FC = () => {
   const [chartData, setChartData] = useState<any>(null);
+  const [interestsData, setInterestsData] = useState<any>(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      const interestsData = await getInterestsData();
-      const labels = Object.keys(interestsData);
-      const data = Object.values(interestsData);
+      const data = await getInterestsData();
+      const labels = Object.keys(data);
+      const values = Object.values(data);
 
       setChartData({
         labels,
         datasets: [
           {
             label: '% of Selection',
-            data,
+            data: values,
             backgroundColor: [
               '#9bc2ff', // Blue for Coding
               '#d3e5ab', // Brown for Product
@@ -34,6 +35,8 @@ const InterestsBarGraph: React.FC = () => {
           },
         ],
       });
+
+      setInterestsData(data);
     };
 
     fetchData();
@@ -42,31 +45,50 @@ const InterestsBarGraph: React.FC = () => {
   if (!chartData) return <p>Loading...</p>;
 
   return (
-    <div style={{ width: '1000px', height: '400px', margin: 'auto' }}>
-      <Bar
-        data={chartData}
-        options={{
-          responsive: true,
-          maintainAspectRatio: false,
-          scales: {
-            y: {
-              beginAtZero: true,
-              title: {
-                display: true,
-                text: '% of Selection',
+    <div style={{ display: 'flex', width: '1500px', height: '400px', margin: 'auto', paddingTop: '50px' }}>
+      <div style={{ flex: '1', paddingRight: '20px', textAlign: 'left', paddingTop: '20px', marginLeft: '40px' }}>
+        <h3>Interests Overview</h3>
+        <ul>
+          {chartData.labels.map((label: string, index: number) => (
+            <li key={label} style={{ marginBottom: '10px', display: 'flex', alignItems: 'center', paddingTop: '20px' }}>
+              <span
+                style={{
+                  display: 'inline-block',
+                  width: '20px',
+                  height: '20px',
+                  backgroundColor: chartData.datasets[0].backgroundColor[index],
+                  marginRight: '10px',
+                }}
+              ></span>
+              <span>{label}: {Number(interestsData[label]).toFixed(2)}%</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div style={{ flex: '2' }}>
+        <Bar
+          data={chartData}
+          options={{
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: '% of Selection',
+                },
+              },
+              x: {
+                title: {
+                  display: true,
+                  text: 'Interests',
+                },
               },
             },
-            x: {
-              title: {
-                display: true,
-                text: 'Interests',
-              },
-            },
-          },
-        }}
-        width={800}
-        height={600}
-      />
+          }}
+        />
+      </div>
     </div>
   );
 };
