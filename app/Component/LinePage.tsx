@@ -53,9 +53,10 @@ const UserAgeChartPage: React.FC = () => {
     const ageGroups = categorizeUsersByAge(userList);
 
     return (
-        <div className='border border-red-500  h-[500px] w-[670px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-2 ml-[240px] mr-[10px]'>
+        <div className='border border-red-500  h-[450px] w-[670px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-2 ml-[240px] mr-[10px]'>
+            <h1 className='text-3xl font-bold text-gray-900 mt-6 ml-8'>Age Group Analysis Overview</h1>
     <div className='h-[400px] w-[400px] '>
-            <h1>User Age Group Chart</h1>
+            
             <AgeChart ageGroups={ageGroups}  />
         </div>
         </div>

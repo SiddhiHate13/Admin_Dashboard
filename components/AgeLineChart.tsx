@@ -22,7 +22,7 @@ const AgeChart: React.FC<AgeChartProps> = ({ ageGroups }) => {
     };
 
     return (
-        <div >
+        <div className='h-[400px] w-[650px] mt-9 ml-4'>
             <Line data={chartData} />
         </div>
     );
