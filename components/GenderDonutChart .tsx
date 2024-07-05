@@ -1,3 +1,6 @@
+"use client"; // This marks the file as a client component
+
+
 import React, { useEffect, useRef } from 'react';
 import { Chart, registerables } from 'chart.js';
 import { DoughnutController } from 'chart.js';
@@ -11,7 +14,6 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
   const chartInstanceRef = useRef<Chart | null>(null);
 
   useEffect(() => {
-    // Register necessary components before creating chart instance
     Chart.register(...registerables, DoughnutController);
 
     const chartData = {
@@ -21,21 +23,20 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
           label: 'Gender Distribution',
           data: data.map(d => d.value),
           backgroundColor: data.map(d => {
-            if (d.label === 'male') return '#3498db'; // Blue
-            if (d.label === 'female') return '#e91e63'; // Pink
-            return '#f39c12'; // Yellow for others
+            if (d.label === 'male') return '#00b4d8';
+            if (d.label === 'female') return '#ff928b';
+            if (d.label === 'others') return '#ffd639';
+            return '#ccc'; // Fallback color
           }),
         },
       ],
     };
 
     if (chartRef.current) {
-      // Destroy previous chart instance if it exists
       if (chartInstanceRef.current) {
         chartInstanceRef.current.destroy();
       }
 
-      // Create new chart instance
       chartInstanceRef.current = new Chart(chartRef.current, {
         type: 'doughnut',
         data: chartData,
@@ -45,11 +46,13 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
               position: 'top',
             },
           },
+          aspectRatio: 1, // Aspect ratio of 1 makes the chart circular
+          responsive: true,
+          maintainAspectRatio: false, // Allows the chart to adjust to its container size
         },
       });
     }
 
-    // Cleanup function to destroy chart on unmount
     return () => {
       if (chartInstanceRef.current) {
         chartInstanceRef.current.destroy();
@@ -57,7 +60,37 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
     };
   }, [data]);
 
-  return <canvas ref={chartRef} />;
+  return (
+    <div className="flex w-full">
+      <div className="flex-1 flex flex-col items-start mt-4">
+        {data.map((item, index) => (
+          <div key={index} className="flex items-center mb-2">
+            <span
+              className="inline-block w-3 h-3 mr-2"
+              style={{
+                backgroundColor:
+                  item.label === 'male'
+                    ? '#00b4d8'
+                    : item.label === 'female'
+                    ? '#ff928b'
+                    : item.label === 'others'
+                    ? '#ffd639'
+                    : '#ccc', // Fallback color
+                borderRadius: '50%',
+              }}
+            ></span>
+            <span className="text-sm font-semibold text-gray-700">{item.label}</span>
+            <span className="ml-2 text-xs text-gray-500">
+              {((item.value / data.reduce((acc, curr) => acc + curr.value, 0)) * 100).toFixed(2)}%
+            </span>
+          </div>
+        ))}
+      </div>
+      <div className="flex-1">
+        <canvas ref={chartRef} style={{ height: '400px', width: '400px' }} />
+      </div>
+    </div>
+  );
 };
 
 export default GenderDonutChart;

@@ -7,7 +7,7 @@ import Sidebar from '@/components/SideBar';
 
 const Page = () => {
   return (
-    <div className='bg-[#dfe1e8]'>
+    <div className='bg-[#dfe1e8] w-screen '>
       <Navbar />
       <main className="flex">
         <Sidebar />
@@ -15,8 +15,8 @@ const Page = () => {
         <div className="w-[1600px] h-[500px] p-4 rounded-lg shadow-gray-600 shadow-sm border border-red-800 bg-white mt-20 ml-[260px]">
         <InterestsBarGraph />
         </div>
-            <div className="flex w-full">
-              <div className="w-1/2 p-4">
+            <div className="flex w-screen ">
+              <div className="w-1/2 p-4 ">
                 <IndexPage />
               </div>
               <div className="w-1/2 p-4">

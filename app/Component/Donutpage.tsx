@@ -91,9 +91,9 @@ const IndexPage: React.FC = () => {
   }, [users]);
 
   return (
-  <div className='border border-red-500 h-[450px] w-[450px]'>
-    <div className='h-[400px] w-[400px] '>
-      <h1>Gender Analysis</h1>
+  <div className='border border-red-500 h-[500px] w-[900px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-2 ml-[280px] '>
+    <div className='h-[450px] w-[500px]  ml-[400px] mt-[25px] '>
+      
       {/* Check if genderChartData has been populated */}
       {genderChartData.length > 0 ? (
         <GenderDonutChart data={genderChartData} />
@@ -106,3 +106,4 @@ const IndexPage: React.FC = () => {
 };
 
 export default IndexPage;
+
