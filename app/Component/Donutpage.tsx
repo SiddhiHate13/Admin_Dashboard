@@ -91,9 +91,9 @@ const IndexPage: React.FC = () => {
   }, [users]);
 
   return (
-  <div className='border border-red-500 h-[450px] w-[900px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-2 ml-[280px] '> {/* Added heading */}
+  <div className=' h-[450px] w-[900px] rounded-lg shadow-gray-600 shadow-sm  bg-white mt-1 ml-[280px] '> {/* Added heading */}
 
-<div className='h-[450px] w-[850px] ml-[30px]  border border-yellow-500 flex items-center justify-center '>
+<div className='h-[450px] w-[850px] ml-[30px]  flex items-center justify-center '>
   
       
       {/* Check if genderChartData has been populated */}

@@ -86,7 +86,7 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
                       : item.label === 'female'
                       ? '#ff928b'
                       : item.label === 'others'
-                      ? '#ffd639'
+                      ? '#ffcc66'
                       : '#ccc', // Fallback color
                   borderRadius: '50%',
                 }}

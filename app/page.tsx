@@ -7,12 +7,12 @@ import Sidebar from '@/components/SideBar';
 
 const Page = () => {
   return (
-    <div className='bg-[#dfe1e8] w-screen '>
+    <div className='bg-[#dfe1e8] w-screen  '>
       <Navbar />
       <main className="flex">
         <Sidebar />
         <div className="flex-1 flex flex-col items-center">
-        <div className="w-[1600px] h-[500px] p-4 rounded-lg shadow-gray-600 shadow-sm border border-red-800 bg-white mt-20 ml-[260px]">
+        <div className="w-[1600px] h-[500px] p-4 rounded-lg shadow-gray-600 shadow-sm  bg-white mt-20 ml-[260px]">
         <InterestsBarGraph />
         </div>
             <div className="flex w-screen ">
