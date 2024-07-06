@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/SideBar';
 
 
+
 const Page = () => {
   return (
     <div className='bg-[#dfe1e8] w-screen  '>
@@ -26,7 +27,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        
+    
       </main>
     </div>
   );
