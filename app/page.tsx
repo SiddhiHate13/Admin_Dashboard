@@ -1,9 +1,11 @@
 import React from 'react';
+import '@/chartjs-setup'; 
 import IndexPage from './Component/Donutpage';
 import UserAgeChartPage from '@/app/Component/LinePage';
 import InterestsBarGraph from '@/components/InterestsBarGraph';
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/SideBar';
+
 
 const Page = () => {
   return (
