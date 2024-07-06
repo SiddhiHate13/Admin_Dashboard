@@ -1,0 +1,1774 @@
+{
+  "roadmaps": [
+  
+    {
+    "entry": {
+        "_version": 22,
+        "locale": "en-in",
+        "uid": "bltef9ee22fbc1495a5",
+        "ACL": {},
+        "_in_progress": false,
+        "completed_units": 9,
+        "created_at": "2024-07-02T12:53:20.038Z",
+        "created_by": "blt2ed82782a46668ff",
+        "ed_profile_uid": [
+            {
+                "uid": "blt060a1453d12c5ecd",
+                "_content_type_uid": "ed_user_profile"
+            }
+        ],
+        "iscompleted": false, 
+        "modules_progress": [
+            {
+                "module_uid": [
+                    {
+                        "uid": "bltfa10cee83e66243a",
+                        "_content_type_uid": "ed_modules"
+                    }
+                ],
+                "units_progress": [
+                    {
+                        "unit_uid": [
+                            {
+                                "uid": "bltba2c33e27f3bf368",
+                                "_content_type_uid": "ed_unit"
+                            }
+                        ],
+                        "type": "Reading",
+                        "total_minutes": 10,
+                        "total_edcoins": 10,
+                        "complete_sub_units": [
+                            0
+                        ],
+                        "inprogress": false,
+                        "_metadata": {
+                            "uid": "cse627c764d4ba65aa"
+                        },
+                        "iscompleted": true
+                    },
+                    {
+                        "unit_uid": [
+                            {
+                                "uid": "blt3e1f79fcba12be96",
+                                "_content_type_uid": "ed_unit"
+                            }
+                        ],
+                        "type": "Video",
+                        "total_minutes": 23,
+                        "total_edcoins": 40,
+                        "complete_sub_units": [
+                            1,
+                            0
+                        ],
+                        "_metadata": {
+                            "uid": "cs41780fbd9fee287a"
+                        },
+                        "iscompleted": true,
+                        "inprogress": false
+                    },
+                    {
+                        "unit_uid": [
+                            {
+                                "uid": "blt47ba886e3d5a712a",
+                                "_content_type_uid": "ed_unit"
+                            }
+                        ],
+                        "type": "Quiz",
+                        "total_minutes": 20,
+                        "total_edcoins": 30,
+                        "complete_sub_units": [],
+                        "quiz_required_percentage": 70,
+                        "attempts": 1,
+                        "quiz_max_percentage": 80,
+                        "_metadata": {
+                            "uid": "cs7fd13bb3d573496c"
+                        },
+                        "iscompleted": true,
+                        "inprogress": false,
+                        "last_attempt_time": "2024-07-03T10:36:43.086Z"
+                    }
+                ],
+                "inprogress": false,
+                "_metadata": {
+                    "uid": "cs1b51a80fd1b7c710"
+                },
+                "iscompleted": true
+            }
+        ],
+        "percentage_completion": 90,
+        "roadmap_statistics": {
+            "reading": {
+                "completed_units": 5,
+                "total_units": 5
+            },
+            "video": {
+                "completed_units": 3,
+                "total_units": 3
+            },
+            "quiz": {
+                "completed_units": 1,
+                "total_units": 1
+            },
+            "assignment": {
+                "completed_units": 0,
+                "total_units": 1
+            }
+        },
+        "roadmap_uid": [
+            {
+                "uid": "blt07bd54be241ab1ff",
+                "_content_type_uid": "ed_roadmap"
+            }
+        ],
+        "tags": [],
+        "title": "Java Fundamentals progress vsvd4nk1btlv",
+        "total_units": 10
+        
+    }
+},
+
+
+
+{
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt1a2b3c4d5e6f7g8h1",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 9,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 10,
+              "total_edcoins": 10,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 23,
+              "total_edcoins": 40,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-03T10:36:43.086Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 90,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 5,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 3,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "HTML Fundamentals progress",
+      "total_units": 10
+    }
+  },
+
+  
+{
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt1a2b3c4d5e6f7g8h1",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 9,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 10,
+              "total_edcoins": 10,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 23,
+              "total_edcoins": 40,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-03T10:36:43.086Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 90,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 5,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 3,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Rust Fundamentals",
+      "total_units": 10
+    }
+  },
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt2a3b4c5d6e7f8g9h2",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 9,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 10,
+              "total_edcoins": 10,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 23,
+              "total_edcoins": 40,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-03T10:36:43.086Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 90,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 5,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 3,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Rust Fundamentals",
+      "total_units": 10
+    }
+  },
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt2a3b4c5d6e7f8g9h2",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 7,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 12,
+              "total_edcoins": 12,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 25,
+              "total_edcoins": 45,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 18,
+              "total_edcoins": 35,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 75,
+              "attempts": 2,
+              "quiz_max_percentage": 85,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:30:00.000Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 70,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 4,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Gestalt Principles",
+      "total_units": 10
+    }
+  },
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt3a4b5c6d7e8f9g1h3",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 9,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 10,
+              "total_edcoins": 10,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 23,
+              "total_edcoins": 40,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-03T10:36:43.086Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 90,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 5,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 3,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Principles of Design",
+      "total_units": 10
+    }
+  },
+  
+  
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt3a4b5c6d7e8f9g1h3",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 7,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 15,
+              "total_edcoins": 15,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 25,
+              "total_edcoins": 50,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 75,
+              "attempts": 2,
+              "quiz_max_percentage": 85,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:18:12.345Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 70,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 3,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Elements of Design",
+      "total_units": 10
+    }
+},
+
+
+
+{
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt4a5b6c7d8e9f0g1h4",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 7,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 12,
+              "total_edcoins": 12,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 28,
+              "total_edcoins": 45,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 25,
+              "total_edcoins": 35,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 75,
+              "attempts": 2,
+              "quiz_max_percentage": 85,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:18:12.345Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 70,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 3,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt07bd54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "JavaScript Intermediate",
+      "total_units": 10
+    }
+  },
+
+
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt4a5b6c7d8e9f0g1h4",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 6,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 15,
+              "total_edcoins": 15,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 30,
+              "total_edcoins": 50,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 25,
+              "total_edcoins": 35,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 75,
+              "attempts": 2,
+              "quiz_max_percentage": 85,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:18:12.345Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 65,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 3,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt0fb54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "SQL",
+      "total_units": 10
+    }
+  },
+
+
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt5a6b7c8d9e0f1g2h5",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 4,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 20,
+              "total_edcoins": 20,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 25,
+              "total_edcoins": 30,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 15,
+              "total_edcoins": 25,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 65,
+              "attempts": 1,
+              "quiz_max_percentage": 75,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:18:12.345Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 55,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 2,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt0fb54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "NodeJs",
+      "total_units": 10
+    }
+  },
+  
+  
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt5a6b7c8d9e0f1g2h5",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 6,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 15,
+              "total_edcoins": 15,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 20,
+              "total_edcoins": 25,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 18,
+              "total_edcoins": 30,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 75,
+              "attempts": 2,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:20:55.789Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 65,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 3,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt5a2b54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Python",
+      "total_units": 10
+    }
+  },
+  
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt6a7b8c9d0e1f2g3h6",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 5,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 12,
+              "total_edcoins": 12,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 18,
+              "total_edcoins": 30,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 15,
+              "total_edcoins": 25,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-04T09:30:15.123Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 60,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 3,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt5a2b54be241ab1ff",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "TBS Bootstrap Fundamentals",
+      "total_units": 10
+    }
+  },
+  
+  
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt3a4b5c6d7e8f9g1h3",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 6,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 15,
+              "total_edcoins": 15,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 25,
+              "total_edcoins": 50,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 20,
+              "total_edcoins": 35,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 1,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-05T08:30:00.000Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 75,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 4,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 2,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt3a4b5c6d7e8f9g1h3",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Elements of Design",
+      "total_units": 10
+    }
+  },
+
+  {
+    "entry": {
+      "_version": 22,
+      "locale": "en-in",
+      "uid": "blt4a5b6c7d8e9f0g1h4",
+      "ACL": {},
+      "_in_progress": false,
+      "completed_units": 7,
+      "created_at": "2024-06-27T06:46:44.547Z",
+      "created_by": "blt2ed82782a46668ff",
+      "ed_profile_uid": [
+        {
+          "uid": "blt060a1453d12c5ecd",
+          "_content_type_uid": "ed_user_profile"
+        }
+      ],
+      "iscompleted": false,
+      "modules_progress": [
+        {
+          "module_uid": [
+            {
+              "uid": "bltfa10cee83e66243a",
+              "_content_type_uid": "ed_modules"
+            }
+          ],
+          "units_progress": [
+            {
+              "unit_uid": [
+                {
+                  "uid": "bltba2c33e27f3bf368",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Reading",
+              "total_minutes": 20,
+              "total_edcoins": 20,
+              "complete_sub_units": [
+                0
+              ],
+              "inprogress": false,
+              "_metadata": {
+                "uid": "cse627c764d4ba65aa"
+              },
+              "iscompleted": true
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt3e1f79fcba12be96",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Video",
+              "total_minutes": 30,
+              "total_edcoins": 60,
+              "complete_sub_units": [
+                1,
+                0
+              ],
+              "_metadata": {
+                "uid": "cs41780fbd9fee287a"
+              },
+              "iscompleted": true,
+              "inprogress": false
+            },
+            {
+              "unit_uid": [
+                {
+                  "uid": "blt47ba886e3d5a712a",
+                  "_content_type_uid": "ed_unit"
+                }
+              ],
+              "type": "Quiz",
+              "total_minutes": 25,
+              "total_edcoins": 40,
+              "complete_sub_units": [],
+              "quiz_required_percentage": 70,
+              "attempts": 2,
+              "quiz_max_percentage": 80,
+              "_metadata": {
+                "uid": "cs7fd13bb3d573496c"
+              },
+              "iscompleted": true,
+              "inprogress": false,
+              "last_attempt_time": "2024-07-05T08:45:00.000Z"
+            }
+          ],
+          "inprogress": false,
+          "_metadata": {
+            "uid": "cs1b51a80fd1b7c710"
+          },
+          "iscompleted": true
+        }
+      ],
+      "percentage_completion": 80,
+      "roadmap_statistics": {
+        "reading": {
+          "completed_units": 5,
+          "total_units": 5
+        },
+        "video": {
+          "completed_units": 3,
+          "total_units": 3
+        },
+        "quiz": {
+          "completed_units": 1,
+          "total_units": 1
+        },
+        "assignment": {
+          "completed_units": 0,
+          "total_units": 1
+        }
+      },
+      "roadmap_uid": [
+        {
+          "uid": "blt4a5b6c7d8e9f0g1h4",
+          "_content_type_uid": "ed_roadmap"
+        }
+      ],
+      "tags": [],
+      "title": "Java Fundamentals",
+      "total_units": 10
+    }
+  }
+  
+  
+
+  
+
+]
+}
