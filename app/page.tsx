@@ -10,7 +10,7 @@ import Sidebar from '@/components/SideBar';
 
 const Page = () => {
   return (
-    <div className='bg-[#dfe1e8] w-screen  '>
+    <div className='bg-[#dfe1e8] w-screen '>
       <Navbar />
       <main className="flex">
         <Sidebar />

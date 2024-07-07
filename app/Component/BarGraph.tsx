@@ -7,8 +7,7 @@ import PopularityChart from '@/components/PopularityChart';
 const Home: NextPage = () => {
   return (
     <div className='flex'>
-      <main className='bg-white h-[450px] w-[900px] rounded-lg mt-1 ml-[280px] flex flex-col justify-center items-center'>
-        <h1 className='text-[29px] mt-4 mb-8 font-semibold'>Bar Graph on Roadmap Popularity Analysis</h1>
+<main className='bg-white h-[500px] w-[900px] border border-red-800 rounded-lg mt-20 ml-3 mr-1 flex flex-col justify-center items-center'>        <h1 className='text-[29px] mt-4 mb-8 font-semibold'>Bar Graph on Roadmap Popularity Analysis</h1>
         <div className='h-[450px] w-[900px] flex justify-center items-center mt-[-100px]'>
           <PopularityChart />
         </div>

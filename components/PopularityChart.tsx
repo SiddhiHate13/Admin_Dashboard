@@ -76,7 +76,7 @@ const PopularityChart = () => {
   };
 
   return (
-    <div style={{ width: '650px', height: '250px', marginTop: '10'}}>
+    <div style={{ width: '1040px', height: '400px', marginTop: '120px', flex: 6, marginLeft:'45px'}}>
      <Bar data={barData} />
     </div>
   );
