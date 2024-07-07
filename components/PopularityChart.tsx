@@ -70,13 +70,13 @@ const PopularityChart = () => {
       {
         label: 'Total Occurrences',
         data: data.map(item => item.totalOccurrences),
-        backgroundColor: '#36A2EB'
+        backgroundColor: '#9ad0f5'
       }
     ]
   };
 
   return (
-    <div style={{ width: '1040px', height: '400px', marginTop: '120px', flex: 6, marginLeft:'45px'}}>
+    <div style={{ width: '1200px', height: '400px', marginTop: '120px', flex: 6, marginLeft:'45px'}}>
      <Bar data={barData} />
     </div>
   );

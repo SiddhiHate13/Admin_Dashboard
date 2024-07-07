@@ -64,10 +64,10 @@ const RoadmapPieChart: React.FC = () => {
 
   // Define an array of different colors
   const colors: string[] = [
-    '#FF6384', '#36A2EB', '#FF0000','#FFCE56', 
-    '#4BC0C0','#FF9F40',  '#9966FF',
-    '#FF6384', '#36A2EB', '#FF0000','#FFCE56', 
-    '#4BC0C0','#FF9F40',  '#9966FF',
+    '#ffb1c1', '#4bc0c0', '#ed2d2d', '#ffce56',
+    '#36a2eb', '#fa9332', '#d6c2ff',
+    '#ffb1c1', '#4bc0c0', '#ed2d2d', '#ffce56',
+    '#36a2eb', '#fa9332', '#d6c2ff',
   ];
 
   // Slice colors array to match data length (in case more colors are defined than needed)
@@ -85,24 +85,36 @@ const RoadmapPieChart: React.FC = () => {
   };
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
-      <div style={{ marginRight: '20px' }}>
-        {data.map((item, index) => (
-          <div key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
-            <div
-              style={{
-                width: '16px',
-                height: '16px',
-                backgroundColor: slicedColors[index],
-                marginRight: '8px'
-              }}
-            ></div>
-            <span>{item.title}</span>
-          </div>
-        ))}
-      </div>
-      <div style={{ width: '250px', height: '250px' }}>
-        <Pie 
+    <div style={{ display: 'flex', alignItems: 'start' }}>
+      <table style={{ marginRight: '40px', borderCollapse: 'collapse', marginLeft: '0', textAlign: 'left' }}>
+        <thead style={{ textAlign: 'left' }}>
+          <tr>
+            <th style={{ padding: '8px', width: '300px', fontSize: '20px', color: '#333', fontWeight: 'bold' }}>Roadmaps</th>
+            <th style={{ padding: '8px', fontSize: '20px', color: '#333', fontWeight: 'bold' }}>Total Minutes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item, index) => (
+            <tr key={index}>
+              <td style={{ padding: '8px', display: 'flex', alignItems: 'center', fontWeight: 'bold', color: '#333', fontSize: '18px' }}>
+                <div
+                  style={{
+                    width: '10px',
+                    height: '10px',
+                    borderRadius: '50%',
+                    backgroundColor: slicedColors[index],
+                    marginRight: '8px'
+                  }}
+                ></div>
+                {item.title}
+              </td>
+              <td style={{ padding: '8px', fontSize: '18px', color: '#666', fontWeight: 'bold', marginLeft: '30px' }}>{item.totalMinutes} mins</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <div style={{ width: '340px', height: '340px', marginLeft: '-80px' }}>
+        <Pie
           data={pieData}
           options={{
             plugins: {

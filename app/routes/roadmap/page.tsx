@@ -21,7 +21,7 @@ export default function Page() {
                 <BarGraph />
               </div>
             </div>
-        <div className="w-[1600px] h-[500px] p-4 rounded-lg shadow-gray-600 shadow-sm  bg-white mt-20 ml-[260px]">
+        <div>
         <StackedChart />
         </div>    
         </div>

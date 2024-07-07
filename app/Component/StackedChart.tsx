@@ -7,14 +7,14 @@ import StackedBarChart from '@/components/StackedBarChart';
 
 const Home: NextPage = () => {
   return (
-    <div className='flex'>
-      <main className='bg-white h-[650px] w-[1520px] rounded-lg mt-1 ml-[280px] flex flex-col justify-center items-center'>
-        <h1 className='text-[29px] mt-4 mb-8 font-semibold'>Bar Graph on Roadmap Popularity Analysis</h1>
-        <div className='h-[450px] w-[900px] flex justify-center items-center mt-4'>
+ 
+      <div className='bg-white h-[550px] w-[1610px] rounded-lg mt-[-5px] ml-[250px] border shadow-gray-600 shadow-sm '>
+        <h1 className='text-3xl mt-10 mb-8  text-gray-700 font-bold text-left ml-14'>Roadmap Module Analysis</h1>
+        <div className='h-[400px] w-[2200px]  mt-12 ml-[50px]'>
           <StackedBarChart />
         </div>
-      </main>
-    </div>
+      </div>
+    
   );
 };
 

@@ -7,9 +7,9 @@ import RoadmapPieChart from '@/components/RoadmapPieChart';
 const Home: NextPage = () => {
   return (
     <div>
-<main className='bg-white h-[500px] w-[700px] border border-red-900 mt-20 ml-[260px] rounded-lg  flex flex-col justify-center items-center'>
-<h1 className='text-[29px] mt-4 mb-4 font-semibold'> Minutes Distribution</h1>
-        <div className='flex justify-center items-center mt-4'>
+<main className='bg-white h-[500px] w-[800px]  shadow-gray-600 shadow-sm border  mt-16 ml-[260px] rounded-lg '>
+<h1 className='text-3xl mt-7 mb-8 text-gray-700 font-bold text-left ml-14'> Minutes Distribution</h1>
+        <div className='flex justify-start items-start ml-10 mt-10 '>
           <RoadmapPieChart />
         </div>
       </main>
