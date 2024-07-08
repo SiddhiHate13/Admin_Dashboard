@@ -62,7 +62,7 @@ const GenderDonutChart: React.FC<GenderDonutChartProps> = ({ data }) => {
   return (
     <div className="flex w-full">
   <div className="flex-1 flex flex-col items-start mt-2 ml-16">
-  <h1 className='text-3xl text-gray-900 font-bold pb-16 mt-1'>Gender Distribution</h1> {/* Added heading */}
+  <h1 className='text-3xl text-gray-900 font-bold pb-16 mt-1tr'>Gender Distribution</h1> {/* Added heading */}
 
     <table className="table-auto">
       

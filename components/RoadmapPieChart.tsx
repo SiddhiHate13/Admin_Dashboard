@@ -64,9 +64,9 @@ const RoadmapPieChart: React.FC = () => {
 
   // Define an array of different colors
   const colors: string[] = [
-    '#ffb1c1', '#4bc0c0', '#ed2d2d', '#ffce56',
+    '#ffb1c1', '#4bc0c0', '#c18c5d', '#ffce56',
     '#36a2eb', '#fa9332', '#d6c2ff',
-    '#ffb1c1', '#4bc0c0', '#ed2d2d', '#ffce56',
+    '#ffb1c1', '#4bc0c0', '#c18c5d', '#ffce56',
     '#36a2eb', '#fa9332', '#d6c2ff',
   ];
 

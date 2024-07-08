@@ -53,17 +53,17 @@ const StackedBarChart = () => {
         datasets: [
           {
             label: 'Reading',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            backgroundColor: '#00b4d8',
             data: datasets.reading,
           },
           {
             label: 'Video',
-            backgroundColor: 'rgba(255, 206, 86, 0.5)',
+            backgroundColor: '#ffcc66',
             data: datasets.video,
           },
           {
             label: 'Quiz',
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: '#ff928b',
             data: datasets.quiz,
           },
         ],
@@ -106,7 +106,7 @@ const StackedBarChart = () => {
   };
 
   return (
-    <div style={{ width: '2000px', height: '420px', marginTop: '10px', marginLeft: '20px' }}>
+    <div style={{ width: '2000px', height: '620px', marginTop: '20px', marginLeft: '20px' }}>
       {chartData && <Bar data={chartData} options={options} />}
     </div>
   );
